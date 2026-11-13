@@ -5,9 +5,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-# ------------------------------------------------------------------
-# Configuração
-# ------------------------------------------------------------------
 st.set_page_config(page_title="Mercado de Dados em Portugal", layout="wide")
 
 TINTA = "#1F2933"
@@ -60,22 +57,15 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
-# ------------------------------------------------------------------
 # Dados
-# ------------------------------------------------------------------
 @st.cache_data
 def carregar_dados():
     vagas = pd.read_csv("dados/vagas.csv")
     requisitos = pd.read_csv("dados/requisitos.csv")
     return vagas, requisitos
 
-
 vagas, requisitos = carregar_dados()
 
-# ------------------------------------------------------------------
-# Filtros
-# ------------------------------------------------------------------
 st.sidebar.markdown("### Filtros")
 
 niveis = sorted(vagas["nivel"].dropna().unique().tolist())
@@ -86,9 +76,6 @@ cidade_sel = st.sidebar.multiselect("Localização", cidades, default=cidades)
 
 vagas_f = vagas[vagas["nivel"].isin(nivel_sel) & vagas["cidade"].isin(cidade_sel)]
 
-# ------------------------------------------------------------------
-# Cabeçalho
-# ------------------------------------------------------------------
 st.title("Mercado de Dados e BI em Portugal")
 st.markdown(
     '<div class="sub">Competências pedidas, senioridade e localização das vagas '
@@ -103,9 +90,8 @@ if vagas_f.empty:
 req_f = pd.merge(vagas_f, requisitos, on="id_vaga")
 req_validos = req_f[req_f["requisito"] != "Não especificado no anúncio"]
 
-# ------------------------------------------------------------------
+
 # KPIs
-# ------------------------------------------------------------------
 def kpi(label, valor, sub=""):
     return (
         f'<div class="kpi"><div class="kpi-label">{html.escape(label)}</div>'
@@ -133,10 +119,7 @@ c3.markdown(
 
 st.write("")
 
-
-# ------------------------------------------------------------------
 # Gráficos
-# ------------------------------------------------------------------
 def barras_horizontais(df, categoria, valor, altura=380):
     """Barras horizontais com a maior destacada e as restantes mais suaves."""
     df = df.sort_values(valor)
@@ -212,9 +195,7 @@ fig_nm.update_layout(
 )
 st.plotly_chart(fig_nm, use_container_width=True, config=CONFIG)
 
-# ------------------------------------------------------------------
 # Tabela
-# ------------------------------------------------------------------
 st.divider()
 st.markdown("### Lista de vagas")
 tabela = vagas_f.rename(columns=lambda c: c.replace("_", " ").capitalize())
