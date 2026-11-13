@@ -1,0 +1,83 @@
+id_vaga,requisito,categoria
+1,Python,Linguagem
+1,SAS,Ferramenta Analítica
+1,Power BI,BI / Visualização
+1,Tableau,BI / Visualização
+1,SQL,Base de Dados
+1,Excel,Folha de Cálculo
+1,Inglês,Idioma
+1,Espanhol,Idioma
+2,Excel,Folha de Cálculo
+2,Power BI,BI / Visualização
+2,SAP,ERP / Dados
+2,Python,Linguagem
+3,Excel / Office,Folha de Cálculo
+3,Inglês,Idioma
+4,Formação Superior (Dados/Engenharia/Gestão),Formação
+5,SQL,Base de Dados
+5,Excel,Folha de Cálculo
+5,Power Query,ETL / Dados
+5,Programação Web / .NET,Linguagem
+6,Machine Learning,Ciência de Dados
+7,Power BI,BI / Visualização
+7,SQL,Base de Dados
+7,Estatística,Análise
+8,Excel / Office,Folha de Cálculo
+8,Inglês,Idioma
+9,Power BI,BI / Visualização
+9,ETL / Data Modeling,Engenharia / Dados
+9,SQL,Base de Dados
+10,Não especificado no anúncio,Outro
+11,SQL,Base de Dados
+11,Python,Linguagem
+11,GCP / BigQuery,Cloud
+11,ETL / Data Modeling,Engenharia / Dados
+12,Programação Básica,Linguagem
+12,Inglês,Idioma
+12,Excel / Office,Folha de Cálculo
+13,Formação Superior (Dados/Gestão),Formação
+14,Power BI,BI / Visualização
+14,Excel,Folha de Cálculo
+14,SAS,Ferramenta Analítica
+15,SQL,Base de Dados
+15,Power BI,BI / Visualização
+15,Inglês,Idioma
+16,SQL,Base de Dados
+16,Python,Linguagem
+16,APIs REST,Engenharia / Dados
+16,PostgreSQL,Base de Dados
+17,Não especificado no anúncio,Outro
+18,Power BI,BI / Visualização
+18,ETL / Data Modeling,Engenharia / Dados
+18,SQL,Base de Dados
+19,IA Generativa / Automação,IA / Automação
+19,Power BI,BI / Visualização
+19,Power Platform,Automação
+19,SQL,Base de Dados
+19,Python,Linguagem
+19,Inglês,Idioma
+20,IA Generativa / Agentes,IA / Automação
+20,Power BI,BI / Visualização
+20,SQL,Base de Dados
+20,Cloud,Cloud
+20,Inglês,Idioma
+21,Power BI,BI / Visualização
+21,Excel,Folha de Cálculo
+21,Python,Linguagem
+22,Apache Spark,Big Data
+22,Python,Linguagem
+22,SQL,Base de Dados
+22,AWS / Azure,Cloud
+22,ETL / Data Modeling,Engenharia / Dados
+23,Power BI,BI / Visualização
+23,ETL / Data Modeling,Engenharia / Dados
+23,SQL,Base de Dados
+24,GCP / BigQuery,Cloud
+24,ETL / Data Modeling,Engenharia / Dados
+24,SQL,Base de Dados
+24,Python,Linguagem
+24,Power BI,BI / Visualização
+24,Inglês,Idioma
+25,Ferramentas BI,BI / Visualização
+25,Excel,Folha de Cálculo
+25,Inglês,Idioma
