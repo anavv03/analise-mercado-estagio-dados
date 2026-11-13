@@ -27,5 +27,6 @@ Para evitar redundância e facilitar cruzamentos analíticos, os dados foram est
 
 1. **Clonar o repositório:**
    ```bash
-   git clone [https://github.com/TEU-UTILIZADOR/analise-mercado-estagio-dados.git](https://github.com/TEU-UTILIZADOR/analise-mercado-estagio-dados.git)
+   git clone [https://github.com/anavv03/analise-mercado-estagio-dados.git]
+   (https://github.com/anavv03/analise-mercado-estagio-dados.git)
    cd analise-mercado-estagio-dados
