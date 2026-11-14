@@ -106,4 +106,5 @@ analise-mercado-estagio-dados/
 
 ## Autora
 
-**Ana Venâncio** — · [GitHub: @anavv03](https://github.com/anavv03)
+**Ana Venâncio** 
+[GitHub: @anavv03](https://github.com/anavv03)
