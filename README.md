@@ -2,10 +2,6 @@
 
 Análise exploratória e dashboard interativo sobre os **requisitos técnicos, níveis de senioridade e distribuição geográfica** das ofertas de emprego na área de Dados em Portugal, com foco em orientar recém-licenciados na preparação para o primeiro estágio.
 
->  **Demo online:** [ADICIONAR LINK DO STREAMLIT CLOUD]
->
-> ![Dashboard](docs/dashboard.png)
-> *(ADICIONAR captura de ecrã do dashboard)*
 
 ---
 
